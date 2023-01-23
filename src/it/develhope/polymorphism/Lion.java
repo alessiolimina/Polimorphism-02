@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lion extends Animal{
 
 
-    public Lion(Scanner animalName) {
+    public Lion(String animalName) {
         super(animalName);
     }
 

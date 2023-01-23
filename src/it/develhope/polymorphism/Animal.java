@@ -3,16 +3,11 @@ package it.develhope.polymorphism;
 import java.util.Scanner;
 
 public class Animal {
-    Scanner animalName = new Scanner(System.in);
 
-    public Animal(Scanner animalName){
+    String animalName;
 
-        System.out.println("Creating a new animal: ");
-
-        String name = animalName.nextLine();
-
-        System.out.printf("The animal is %s %n", name);
-
+    public Animal(String name){
+        this.animalName = name;
     }
 
     public void animalSound(){
